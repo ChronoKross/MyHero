@@ -1,0 +1,21 @@
+# Normalize all text files to LF
+* text=auto eol=lf
+
+# Unity scripts
+*.cs text eol=lf
+*.shader text eol=lf
+*.cginc text eol=lf
+
+# JSON, YAML, etc.
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+
+# Ignore line endings for binary files (Unity assets)
+*.png binary
+*.jpg binary
+*.psd binary
+*.prefab binary
+*.unity binary
+*.asset binary
+*.fbx binary
