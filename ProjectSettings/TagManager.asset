@@ -14,15 +14,15 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - TerrainGround
+  - TerrainShadows
+  - TerrainDetails
+  - Vegetation
+  - Player
+  - TerrainTrees
+  - Walls
+  - Roofs
+  - FX
   - 
   - 
   - 
@@ -42,11 +42,32 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Ground
+  - name: TerrainGround
     uniqueID: 874543563
     locked: 0
-  - name: Actors
+  - name: TerrainShadows
+    uniqueID: 1035516263
+    locked: 0
+  - name: TerrainDetails
     uniqueID: 626578567
+    locked: 0
+  - name: Vegetation
+    uniqueID: 259677469
+    locked: 0
+  - name: Player
+    uniqueID: 3839033827
+    locked: 0
+  - name: TerrainTrees
+    uniqueID: 2757572321
+    locked: 0
+  - name: Walls
+    uniqueID: 4031463505
+    locked: 0
+  - name: Roofs
+    uniqueID: 2889516893
+    locked: 0
+  - name: FX
+    uniqueID: 1914448549
     locked: 0
   m_RenderingLayers:
   - Default
